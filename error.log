@@ -1,0 +1,26 @@
+[Fri Sep 18 01:00:03 2015] [warn] Init: Name-based SSL virtual hosts only work for clients with TLS server name indication support (RFC 4366)
+[Fri Sep 18 01:00:04 2015] [warn] Init: Name-based SSL virtual hosts only work for clients with TLS server name indication support (RFC 4366)
+[Fri Sep 18 01:00:04 2015] [notice] Apache/2.2.22 (Win32) mod_ssl/2.2.22 OpenSSL/1.0.1c PHP/5.3.13 configured -- resuming normal operations
+[Fri Sep 18 01:00:04 2015] [notice] Server built: Apr 20 2012 18:42:30
+[Fri Sep 18 01:00:04 2015] [notice] Parent: Created child process 27860
+[Fri Sep 18 01:00:04 2015] [notice] Disabled use of AcceptEx() WinSock2 API
+[Fri Sep 18 01:00:04 2015] [warn] Init: Name-based SSL virtual hosts only work for clients with TLS server name indication support (RFC 4366)
+[Fri Sep 18 01:00:05 2015] [warn] Init: Name-based SSL virtual hosts only work for clients with TLS server name indication support (RFC 4366)
+[Fri Sep 18 01:00:05 2015] [notice] Child 27860: Child process is running
+[Fri Sep 18 01:00:05 2015] [notice] Child 27860: Acquired the start mutex.
+[Fri Sep 18 01:00:05 2015] [notice] Child 27860: Starting 25 worker threads.
+[Fri Sep 18 01:00:05 2015] [notice] Child 27860: Listening on port 443.
+[Fri Sep 18 01:00:05 2015] [notice] Child 27860: Listening on port 8648.
+[Fri Sep 18 01:00:05 2015] [notice] Child 27860: Listening on port 443.
+[Fri Sep 18 01:00:05 2015] [notice] Child 27860: Listening on port 80.
+[Fri Sep 18 01:00:41 2015] [error] [client 127.0.0.1] File does not exist: Z:/home/wordpress/www/favicon.ico, referer: http://wordpress/wp-admin/setup-config.php
+[Mon Sep 21 18:46:47 2015] [error] [client 127.0.0.1] File does not exist: Z:/home/mySite.local/www/favicon.ico, referer: http://mysite.local/test.html
+[Mon Sep 21 19:06:39 2015] [error] [client 127.0.0.1] PHP Warning:  pathinfo() expects at least 1 parameter, 0 given in Z:\\home\\mySite.local\\www\\test.php on line 49
+[Mon Sep 21 19:22:03 2015] [error] [client 127.0.0.1] PHP Warning:  fopen(Z:\\usr\\local\\apache\\logs\\error.txt) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: No such file or directory in Z:\\home\\mySite.local\\www\\test.php on line 55
+[Mon Sep 21 19:22:03 2015] [error] [client 127.0.0.1] PHP Warning:  feof() expects parameter 1 to be resource, boolean given in Z:\\home\\mySite.local\\www\\test.php on line 56
+[Mon Sep 21 19:22:03 2015] [error] [client 127.0.0.1] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in Z:\\home\\mySite.local\\www\\test.php on line 59
+[Mon Sep 21 19:22:45 2015] [error] [client 127.0.0.1] File does not exist: Z:/home/mySite.local/www/function.fopen, referer: http://mysite.local/test.php
+[Mon Sep 21 19:29:24 2015] [error] [client 127.0.0.1] PHP Warning:  fopen(/usr/local/apache/logs/error.txt) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: No such file or directory in Z:\\home\\mySite.local\\www\\test.php on line 55
+[Mon Sep 21 19:29:24 2015] [error] [client 127.0.0.1] PHP Warning:  feof() expects parameter 1 to be resource, boolean given in Z:\\home\\mySite.local\\www\\test.php on line 56
+[Mon Sep 21 19:29:24 2015] [error] [client 127.0.0.1] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in Z:\\home\\mySite.local\\www\\test.php on line 59
+[Mon Sep 21 19:29:39 2015] [error] [client 127.0.0.1] File does not exist: Z:/home/mySite.local/www/function.fopen, referer: http://mysite.local/test.php

@@ -1,0 +1,20 @@
+source:
+  file: apiargs-MongoDBCollection-common-option.yaml
+  ref: upsert
+---
+source:
+  file: apiargs-MongoDBCollection-common-option.yaml
+  ref: arrayFilters
+---
+source:
+  file: apiargs-MongoDBCollection-common-option.yaml
+  ref: bypassDocumentValidation
+---
+source:
+  file: apiargs-MongoDBCollection-common-option.yaml
+  ref: collation
+---
+source:
+  file: apiargs-MongoDBCollection-common-option.yaml
+  ref: writeConcern
+...

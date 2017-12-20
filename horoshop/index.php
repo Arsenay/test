@@ -30,7 +30,7 @@ class DB implements DatabaseConnectionInterface
 	private $pdo;
 
 	public function connect($host, $login, $password, $databaseName){
-		$dsn = "mysql:host=$host;dbname=$databaseName";
+		$dsn = "mysql:host=$host;dbname=$databaseName;charset=utf8";
 		try {
 			$this->pdo = new PDO($dsn, $login, $password);
 			$this->pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
@@ -113,14 +113,13 @@ if ($all) {
 }
 
 class Num{
-	public function calc($min, $max, $count = 4){
-		$arr = range($min, $max, floor(($max-$min)/($count-1)));
-		return implode($arr, ' ') . "\n";
+	public function calc($min, $max){
+		return implode(range($min+(( $min % 2 == 0 ) ? 0 : 1), $max, 2), ' ') . "\n";
 	}
 }
 
 echo "<hr>";
 $n = new Num;
 echo "<pre>";
-echo $n->calc(7, 45);
+echo $n->calc(7, 67);
 echo "</pre>";
